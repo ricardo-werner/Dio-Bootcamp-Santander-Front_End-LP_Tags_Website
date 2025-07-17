@@ -1,0 +1,95 @@
+:root {
+  --heading-color: var(--tertiary-color);
+  --font-family: "Outfit", sans-serif;
+  --primary-color: #FF8700;
+  --secondary-color: #005E88;
+  --tertiary-color: #00A19B;
+  --text-color: #111111;
+  --background-color: #ffffff;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  position: relative;
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0 2rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  font-size: 1.6rem;
+  background: none;
+  overflow-x: hidden;
+}
+
+/* Camada da imagem de fundo */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../assets/images/bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.3; /* ajuste aqui conforme a transparência desejada */
+  z-index: -1;
+}
+
+header,
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem 0;
+}
+
+footer .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+main {
+  max-width: 80rem;
+  margin: 2rem auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  margin: 1rem 0;
+}
+
+mark {
+  background-color: rgb(255, 255, 0);
+}
+
+ul, ol {
+  margin-left: 2rem;
+  padding-left: 1.6rem;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 0.4rem solid var(--primary-color);
+  padding-left: 1rem;
+  margin: 2rem 0;
+}
