@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Landing Page responsiva com foco em HTML semântico, acessibilidade e boas práticas." />
+  <title>Desafio de Projeto - HTML e Acessibilidade</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/styles/index.css" />
+
+</head>
+
+<body>
+  <header>
+    <h1>Desafio HTML - Página Exemplo</h1>
+    <p><strong>Objetivo:</strong> Aplicar tags HTML com foco em acessibilidade, SEO e responsividade.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Introdução</h2>
+      <p>Este projeto reforça o uso de <strong>tags semânticas HTML</strong> com um layout responsivo.</p>
+    </section>
+
+    <section>
+      <h3>Exemplos de Formatação</h3>
+      <p>Usamos <mark>marcações</mark>, <i>itálico</i>, <u>sublinhado</u> e <strong>texto forte</strong>.</p>
+      <p><small>Texto pequeno, menos importante.</small></p>
+    </section>
+
+    <section>
+      <h4>Listas</h4>
+      <ol>
+        <li>Item numerado</li>
+        <li>Item numerado</li>
+      </ol>
+      <ul>
+        <li>Item não ordenado</li>
+        <li>Item não ordenado</li>
+      </ul>
+    </section>
+
+    <section>
+      <h5>Outras tags</h5>
+      <p>H<sub>2</sub>O e 2<sup>10</sup> são exemplos de sub e sup.</p>
+      <p><abbr title="HyperText Markup Language">HTML</abbr> é base da web.</p>
+      <p><del>Texto removido</del> e <span style="color: red;">texto com cor (desencorajado)</span></p>
+    </section>
+
+    <section>
+      <h6>Citação</h6>
+      <blockquote cite="https://developer.mozilla.org/pt-BR/">
+        "HTML é a linguagem de marcação padrão para criar páginas web."
+      </blockquote>
+    </section>
+
+    <hr />
+
+    <section>
+          <h2>Referências</h2>
+          <ul>
+            <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></li>
+            <li><a href="https://www.w3schools.com/tags/default.asp" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+            <li><a href="https://htmlreference.io/" target="_blank" rel="noopener noreferrer">HTML Reference</a></li>
+          </ul>
+        </section>
+  </main>
+
+  <footer class="footer-main">
+      <p class="copyright" id="footer-content">
+        &copy; Copyright&nbsp;&nbsp;Ricardo Werner - Dev em Desenvolvimento&nbsp;&nbsp;</p>
+      <script>
+        const date = new Date();
+        document.getElementById('footer-content').innerHTML += date.getFullYear();
+      </script>
+
+      <p class="redes">
+        Rede para contatos
+      </p>
+
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/ricardo-werner" target="_blank" class="linkedin">
+            <img src="./src/assets/icon/linkedin.png" alt="Linkedin">
+          </a>
+
+          <a href="https://www.github.com/ricardo-werner" target="_blank" class="github">
+            <img src="./src/assets/icon/github.png" alt="Github">
+          </a>
+        </div>
+    </footer>
+
+</body>
+</html>
