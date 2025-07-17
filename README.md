@@ -4,10 +4,10 @@ Este projeto é uma como parte do Dio Bootcamp Santnader-Front_End e tem como ob
 
 ### 📜 Sobre o Projeto
 
-O objetivo deste projeto é desenvolver uma página com a utilização das tag´s:
+O objetivo deste projeto é desenvolver uma página com a utilização das tag´s básicas:
 
- - explicadas nas aulas: <h1> até <h6>, <p>, <mark>, <small>, <i>, <u>, <strong>, <ol>, <ul>, <li>, <a>, <hr>, <sub>, <sup>, <blockquote>;
- - novas tags sugeridas: <font>, <del>, <p>, <abbr> (a ideia é buscar estas tags na internet, entender como ela funciona e utilizar no texto).
+ - explicadas nas aulas: h1 até h6, p, mark, small, i, u, strong, ol, ul, li, a, hr, sub, sup, blockquote.
+ - novas tags sugeridas: font, del, p, abbr (a ideia é buscar estas tags na internet, entender como ela funciona e utilizar no texto).
 
 
 ### 🔗 Links Úteis
@@ -85,7 +85,7 @@ No desenvolvimento desta página, foram aplicados os seguintes conceitos:
 
 ### 💡 Reflexões
 
-Desenvolver este projeto foi um marco significativo no meu aprendizado na programação, permitindo um aprofundamento prático nas técnicas de desenvolvimento web.
+Desenvolver este projeto foi um aprendizado na programação, permitindo um aprofundamento prático nas técnicas de desenvolvimento web.
 
 ### 📦 Como Executar o Projeto
 
