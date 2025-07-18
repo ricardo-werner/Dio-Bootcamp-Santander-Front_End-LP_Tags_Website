@@ -52,9 +52,7 @@ O desafio consiste em criar uma página web simples, aplicando tags HTML abordad
 
 ---
 
-### 🧩 Exibição da Página (exemplos)
-
-> 🔽 As imagens abaixo são demonstrativas e serão atualizadas:
+### 🧩 Exibição da Página
 
 #### 🖼️ Tela da Landing Page
 <p align="center">
@@ -64,7 +62,7 @@ O desafio consiste em criar uma página web simples, aplicando tags HTML abordad
 #### 🖼️ Tela com código HTML e CSS
 
 <p align="center">
-  <img width="480" src="./src/assets/to_readme/tela_codigos.PNG" alt="Estrutura HTML e CSS" />
+  <img width="480" src="./src/assets/to_readme/tela_codigo.PNG" alt="Estrutura HTML e CSS" />
 </p>
 
 ---
@@ -102,13 +100,19 @@ git clone https://github.com/ricardo-werner/Dio-Bootcamp-Santander-Front_End-LP_
 
 3.	Ative o Go Live:
 
-<p align="center"> <img width="280" src="./src/assets/to_readme/GoLive.jpg" alt="Ativando o Go Live" /> 
+  <p align="center">
+     <img width="280" src="./src/assets/to_readme/GoLive.jpg" alt="Ativando o Go Live">
+  </p>
 
-</p> <p align="center"> <img width="280" src="./src/assets/to_readme/GoLiveOn.jpg" alt="Go Live ativado" /> </p> 
+  <p align="center">
+     <img width="280" src="./src/assets/to_readme/GoLiveOn.jpg" alt="Go Live ativado">
+  </p>
 
 4.	Visualize o resultado:
 
-<p align="center"> <img width="480" src="./src/assets/to_readme/telaWeb.PNG" alt="Resultado na Web" /> </p> 
+  <p align="center">
+    <img width="480" src="./src/assets/to_readme/resultadoWeb.PNG" alt="Resultado na Web">
+  </p>
 
 ________________________________________
 
@@ -127,7 +131,6 @@ ________________________________________
 ________________________________________
 
 🙋‍♂️ Autor
-
 Ricardo Werner
 Desenvolvedor em transição de carreira
 Front-End | HTML | CSS | React
