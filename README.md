@@ -131,8 +131,8 @@ ________________________________________
 
 ________________________________________
 
-🙋‍♂️ Autor
-Ricardo Werner
-Desenvolvedor em transição de carreira
-Front-End | HTML | CSS | React
+🙋‍♂️ Autor <br>
+Ricardo Werner <br>
+Desenvolvedor em transição de carreira <br>
+Front-End | HTML | CSS | Javascript | React
 
