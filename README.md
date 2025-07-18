@@ -95,6 +95,7 @@ O desafio consiste em criar uma página web simples, aplicando tags HTML abordad
 
 ```bash
 git clone https://github.com/ricardo-werner/Dio-Bootcamp-Santander-Front_End-LP_Tags_Website.git
+```
 
 2.	Abra o projeto no VS Code
 
